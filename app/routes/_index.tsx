@@ -201,7 +201,7 @@ export default function LandingPage() {
               </a>
             </div>
 
-            <!-- Trust Proof -->
+           
             <div className="mt-10 flex items-center justify-center gap-6 text-xs sm:text-sm text-slate-500">
               <span className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-4 h-4 text-emerald-500" /> Tanpa Kartu Kredit
