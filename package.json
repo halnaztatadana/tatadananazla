@@ -1,0 +1,52 @@
+{
+  "name": "tatadana",
+  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "node server.mjs",
+    "remix": "remix vite:dev",
+    "start": "node server.mjs",
+    "test": "node tests/runner.js",
+    "test:unit": "tsx tests/unit/schema_validation.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@remix-run/node": "^2.15.2",
+    "@remix-run/react": "^2.15.2",
+    "@remix-run/serve": "^2.15.2",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "isbot": "^5.1.22",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "lucide-react": "^0.475.0",
+    "openai": "^4.85.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^3.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.15.2",
+    "@types/node": "^20.17.19",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
